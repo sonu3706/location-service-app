@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  tomcat:
+    threads:
+      max: 500
+    connection-timeout: 5s
+    max-swallow-size: 1MB
+    max-http-form-post-size: 1MB
+    accesslog:
+      enabled: true
+  max-http-header-size: 8KB
+
